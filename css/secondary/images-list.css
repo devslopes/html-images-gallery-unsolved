@@ -7,7 +7,7 @@
 
 .item {
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, .2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   padding: 20px;
   width: calc(50% - 15px);
@@ -17,7 +17,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .item img {
@@ -25,16 +25,16 @@
 }
 
 .item:hover {
-  background-color: rgba(64, 31, 0, .5);
+  background-color: rgba(64, 31, 0, 0.5);
 }
 
 .details {
   padding: 12px 20px;
-  color: #401F00;
-  background-color: rgba(255, 255, 255, .2);
+  color: #401f00;
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   text-decoration: none;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .item:hover .details {
@@ -45,7 +45,7 @@
   .gallery-items {
     flex-direction: column;
   }
-  
+
   .item {
     width: 100%;
     max-width: unset;
